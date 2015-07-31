@@ -57,9 +57,12 @@ x = y = 0
 
 rgbs = [
   lambda do
-    r = (x*unit).to_i*36
-    g = (x*unit).to_i*6
-    b = (y*unit).to_i
+    xval = (x*unit)
+    yval = (y*unit)
+    zval = 1
+    r = zval.to_i*36
+    g = xval.to_i*6
+    b = yval.to_i
     r + g + b
   end,
 
@@ -106,20 +109,28 @@ turtle = Turtle.new :east, false do |direction, tail_up|
 
   case direction
   when :north
-    print "#{colour} #{left}#{up}"
+    print "#{colour}  #{left}#{left}#{up}"
+    print "#{colour}  #{left}#{left}#{up}"
     y -= 1
   when :east
-    print "#{colour} #{left}#{right}"
+    print "#{colour}  #{left}#{left}#{right}"
+    print "#{colour}  #{left}#{left}#{right}"
+    print "#{colour}  #{left}#{left}#{right}"
+    print "#{colour}  #{left}#{left}#{right}"
     x += 1
   when :south
-    print "#{colour} #{left}#{down}"
+    print "#{colour}  #{left}#{left}#{down}"
+    print "#{colour}  #{left}#{left}#{down}"
     y += 1
   when :west
-    print "#{colour} #{left}#{left}"
+    print "#{colour}  #{left}#{left}#{left}"
+    print "#{colour}  #{left}#{left}#{left}"
+    print "#{colour}  #{left}#{left}#{left}"
+    print "#{colour}  #{left}#{left}#{left}"
     x -= 1
   else raise "WAT: #{direction.inspect}"
   end
-  sleep 0.1
+  sleep 0.05
 end
 
 rules  = {"A" => "-BF+AFA+FB-", "B" => "+AF-BFB-FA+"}
@@ -164,5 +175,5 @@ rgbs.each do |_rgb|
   first_run = true
   x = y = 0
   to_print.each_char &handle_whatevz
-  turtle.forward!
+  # turtle.forward!
 end
