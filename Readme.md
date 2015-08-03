@@ -3,19 +3,19 @@ Hilbert Curve
 
 Without spacing between, using it to choose colours
 
-![all of them](hilbert.png)
+![all of them](images/hilbert.png)
 
 Watch it draw
 
-![watch it draw](hilbert.gif)
+![watch it draw](images/hilbert.gif)
 
 Watch it draw again, this one looks more like a Hilbert curve b/c I spaced the vertices.
 
-![watch it draw 2](hilbert3.gif)
+![watch it draw 2](images/hilbert3.gif)
 
 32 Segment curve
 
-![32 segment curve](32-segment-curve.gif)
+![32 segment curve](images/32-segment-curve.gif)
 
 Resources
 ---------
