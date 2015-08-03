@@ -5,6 +5,8 @@ class Turtle
   HALF_CIRCLE    = Math::PI
   QUARTER_CIRCLE = Math::PI/2
 
+  attr_reader :at, :front, :up
+
   def initialize(at:, front:, up:)
     self.at = vector at
     oh_the_places_you_went << at()
@@ -51,8 +53,7 @@ class Turtle
 
   private
 
-  attr_accessor :at
-  attr_reader :front, :up
+  attr_writer :at
 
   def rotate(location, around:, by:)
     xyz = Quaternion.rotation(around, by)
