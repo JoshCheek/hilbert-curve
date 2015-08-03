@@ -1,6 +1,14 @@
 Hilbert Curve
 =============
 
+Hilbert cube
+
+![Hilbert Cube](images/cube.png)
+
+Dragon curve
+
+![Square curve](images/dragon.png)
+
 Without spacing between, using it to choose colours
 
 ![all of them](images/hilbert.png)
@@ -16,6 +24,12 @@ Watch it draw again, this one looks more like a Hilbert curve b/c I spaced the v
 32 Segment curve
 
 ![32 segment curve](images/32-segment-curve.gif)
+
+Square curve
+
+![Square curve](images/square1.png)
+
+![Square curve](images/square2.png)
 
 Resources
 ---------
