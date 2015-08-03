@@ -5,25 +5,31 @@ Hilbert cube
 
 ![Hilbert Cube](images/cube.png)
 
+
 Dragon curve
 
-![Square curve](images/dragon.png)
+![Dragon curve](images/dragon.png)
+
 
 Without spacing between, using it to choose colours
 
 ![all of them](images/hilbert.png)
 
+
 Watch it draw
 
 ![watch it draw](images/hilbert.gif)
+
 
 Watch it draw again, this one looks more like a Hilbert curve b/c I spaced the vertices.
 
 ![watch it draw 2](images/hilbert3.gif)
 
+
 32 Segment curve
 
 ![32 segment curve](images/32-segment-curve.gif)
+
 
 Square curve
 
