@@ -1,5 +1,5 @@
 # http://math.stackexchange.com/questions/123642/representing-a-3d-hilbert-curve-as-an-l-system
-require_relative '3d_turtle'
+require_relative 'turtle'
 
 increase = Turtle::QUARTER_CIRCLE
 decrease = -increase

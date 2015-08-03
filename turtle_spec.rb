@@ -1,4 +1,4 @@
-require_relative '3d_turtle'
+require_relative 'turtle'
 
 RSpec.describe Turtle do
   let(:increase) { Math::PI/2 }
