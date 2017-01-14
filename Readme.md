@@ -25,9 +25,8 @@ Watch it draw again, this one looks more like a Hilbert curve b/c I spaced the v
 
 ![watch it draw 2](images/hilbert3.gif)
 
-Make it tweetable
-
-![make it tweetable](https://twitter.com/josh_cheek/status/667502337812860929)
+Make it tweetable! [1](https://twitter.com/josh_cheek/status/667502337812860929)
+and [2](https://twitter.com/josh_cheek/status/760532928803672064).
 
 
 32 Segment curve
