@@ -25,8 +25,19 @@ Watch it draw again, this one looks more like a Hilbert curve b/c I spaced the v
 
 ![watch it draw 2](images/hilbert3.gif)
 
-Make it tweetable! [1](https://twitter.com/josh_cheek/status/667502337812860929)
-and [2](https://twitter.com/josh_cheek/status/760532928803672064).
+Make it tweetable!
+
+<https://twitter.com/josh_cheek/status/667502337812860929>
+
+```sh
+ruby -e's=?F;3.times{s.gsub!?F,"F3F1F1F3F"};puts"\e[30H\e[47m#{s.gsub(/./){$.+=$&.to_i;"\e[#{%w[2C B 2D A][$.%4]}  \e[2D"*2if$&[?F]}}\e[m"'
+```
+
+<https://twitter.com/josh_cheek/status/760532928803672064>
+
+```sh
+ruby -e 'r=1..4;3.times{r=r.flat_map{|n|[0,0,1,2,3,0,0].map{|m|n+m}}};$><<r.map{|n|"\e[42m  \e[2D\e[#{n%2*2}#{"ACBD"[n%4]}"*2}*""<<"\e[59H"'
+```
 
 
 32 Segment curve
